@@ -45,45 +45,56 @@ lib/
 └── main.dart               # Ponto de entrada da aplicação
 ```
 
-▶️ Como Rodar o Projeto
+## ▶️ Como Rodar o Projeto
+
 Siga as etapas abaixo para rodar o projeto localmente:
 
-1. Pré-requisitos
-Instale o Flutter na sua máquina.
-Configure o emulador Android ou iOS ou conecte um dispositivo físico.
-2. Clonar o Repositório
-bash
-Copiar código
+### 1. Pré-requisitos
+
+- Instale o **[Flutter](https://flutter.dev/docs/get-started/install)** na sua máquina.
+- Configure o emulador **Android** ou **iOS** ou conecte um dispositivo físico.
+
+### 2. Clonar o Repositório
+
+```bash
 git clone https://github.com/seu-usuario/namer-app.git
 cd namer-app
-3. Instalar Dependências
-bash
-Copiar código
+```
+### 3. Instalar Dependências
+- bash
+```
 flutter pub get
-4. Rodar o Projeto
+
+```
+### 4. Rodar o Projeto
+
 Execute o seguinte comando para rodar o projeto:
+```
+ bash
 
-bash
-Copiar código
 flutter run
-🖼️ Demonstração
-Tela Inicial
+```
+### 🖼️ Demonstração
 
-Gera pares de palavras aleatórias.
-Botões de "Like" e "Próximo".
-Tela de Favoritos
+- Tela Inicial
+- Gera pares de palavras aleatórias.
+- Botões de "Like" e "Próximo".
+- Tela de Favoritos
+- Exibe todas as palavras marcadas como favoritas.
+- Opção de remover favoritos.
+  
+### 📌 Melhorias Futuras
 
-Exibe todas as palavras marcadas como favoritas.
-Opção de remover favoritos.
-📌 Melhorias Futuras
 Integração com Backend: Sincronizar os favoritos com uma API.
 Suporte a Multilinguagem: Adicionar tradução para outros idiomas.
 Armazenamento Local: Persistir favoritos no dispositivo usando SQLite ou SharedPreferences.
-🤝 Contribuições
+
+### 🤝 Contribuições
+
 Contribuições são bem-vindas! Sinta-se à vontade para abrir um issue ou enviar um pull request.
 
-📄 Licença
+### 📄 Licença
 
-Pode passar.
+Este projeto está licenciado sob a Licença MIT. Consulte o arquivo LICENSE para mais detalhes.
 
 Desenvolvido com ❤️ por Luiz Paulo.
