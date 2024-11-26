@@ -1,4 +1,4 @@
-# Namer App
+# Gera Palavras
 
 ## 📝 Sobre o Projeto
 
