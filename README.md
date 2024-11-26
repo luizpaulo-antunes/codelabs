@@ -43,7 +43,7 @@ lib/
 │   ├── big_card.dart       # Componente para exibir a palavra gerada
 │   └── history_list_view.dart # Componente do histórico de palavras
 └── main.dart               # Ponto de entrada da aplicação
-
+```
 
 ▶️ Como Rodar o Projeto
 Siga as etapas abaixo para rodar o projeto localmente:
