@@ -57,7 +57,9 @@ Siga as etapas abaixo para rodar o projeto localmente:
 ### 2. Clonar o Repositório
 
 ```bash
-git clone https://github.com/seu-usuario/namer-app.git
+
+git clone https://github.com/luizpaulo-antunes/codelabs
+
 cd namer-app
 ```
 ### 3. Instalar Dependências
