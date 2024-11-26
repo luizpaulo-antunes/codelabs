@@ -1,16 +1,45 @@
-# codelabs
+# Namer App
 
-A new Flutter project.
+## 📝 Sobre o Projeto
 
-## Getting Started
+O **GeraPalavras** é um aplicativo simples desenvolvido em Flutter que gera pares de palavras aleatórias e permite ao usuário marcar como favoritos. Ele possui funcionalidades como histórico de palavras geradas, gerenciamento de favoritos, e um layout responsivo para dispositivos móveis e desktops.
 
-This project is a starting point for a Flutter application.
+---
 
-A few resources to get you started if this is your first Flutter project:
+## 🚀 Tecnologias Utilizadas
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Este projeto foi desenvolvido com as seguintes tecnologias:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- **[Flutter](https://flutter.dev/)**: Framework para desenvolvimento de aplicativos multiplataforma (Android, iOS, Web, Desktop).
+- **[Dart](https://dart.dev/)**: Linguagem de programação utilizada pelo Flutter.
+- **[Provider](https://pub.dev/packages/provider)**: Biblioteca para gerenciamento de estado.
+- **[English Words](https://pub.dev/packages/english_words)**: Biblioteca para geração de palavras aleatórias em inglês.
+- **Material Design 3**: Tema visual baseado no design system do Google.
+
+---
+
+## 🛠️ Funcionalidades
+
+- **Geração de Palavras Aleatórias**: Exibe pares de palavras gerados dinamicamente.
+- **Favoritar Palavras**: Permite marcar palavras como favoritas e gerenciá-las.
+- **Histórico de Palavras Geradas**: Mantém um histórico das palavras visualizadas.
+- **Design Responsivo**: Layout adaptável para diferentes tamanhos de tela (mobile, tablet e desktop).
+- **Navegação por Aba ou Menu Lateral**: Alterna entre a página inicial e a de favoritos.
+
+---
+
+## 📂 Estrutura de Pastas
+
+Abaixo está a organização do projeto:
+
+```plaintext
+lib/
+├── app/
+│   └── app_state.dart      # Gerenciamento do estado do aplicativo
+├── pages/
+│   ├── favorites_page.dart # Tela de favoritos
+│   └── home_page.dart      # Tela inicial do aplicativo
+├── widgets/
+│   ├── big_card.dart       # Componente para exibir a palavra gerada
+│   └── history_list_view.dart # Componente do histórico de palavras
+└── main.dart               # Ponto de entrada da aplicação
