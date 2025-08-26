@@ -99,4 +99,4 @@ Contribuições são bem-vindas! Sinta-se à vontade para abrir um issue ou envi
 
 Este projeto está licenciado sob a Licença MIT. Consulte o arquivo LICENSE para mais detalhes.
 
-Desenvolvido com ❤️ por Luiz Paulo.
+
